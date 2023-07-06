@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>封面</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url("pic/BLACKGROUND.jpg");
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 34px 36px;
+            text-decoration: none;
+            font-size: 25px;
+            font-family: 华光综艺_CNKI;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+        div{
+            font-size: 100px;
+            position: absolute;
+            top:400px;
+            left:310px;
+            font-family: Arial Black;
+            color: #ffffff;
+            width: 1800px;
+            height: 1800px;
+        }
+        li a.active {
+            background-color: #555555;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<ul id="daohang">
+    <li><a class="active" href="index.html">主 页</a></li>
+    <li><a href="OBJECT.html">研 究 对 象</a></li>
+    <li><a href="2.html">历 史 事 件</a></li>
+    <li><a href="Radar.html">龙 珠 雷 达</a></li>
+</ul>
+<div>
+    DRAGON  BALL  SYSTEM
+</div>
+
+</body>
+</html>
